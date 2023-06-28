@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Belanosima', sans-serif;
+}
+header{
+    background-color: #292961;
+    padding: 20px 0;
+}
+header h1{
+    color: white;
+    text-align: center;
+}
+header .profile{
+    text-align: right;
+    padding-right: 50px;
+}
+header .profile a{
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+}
+header .profile i{
+    color: orange;
+    margin-right: 5px;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+}
+.container a{
+    text-decoration: none;
+    color: #292961;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+}
+.container .row{
+    padding: 20px;
+
+}
+.container .row h2{
+    text-align: left;
+    color: red;
+}
+.container .row .description{
+    text-align: justify;
+    padding-top: 20px;
+}
+.container .row .date{
+    text-align: right;
+    color: green;
+}
+.container a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    background-color: #292961;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width:550px){
+    .container{
+        padding: 50px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    header .profile{
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+    header .profile a{
+        background-color: #292961;
+        color: white;
+    }
+}
