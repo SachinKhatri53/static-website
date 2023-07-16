@@ -61,11 +61,7 @@ header .profile i{
     gap: 2rem;
     justify-content: space-between;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
     padding: 20px 30px 50px 30px;
-    /* height: 75vh;
-    overflow-y: scroll; */
 }
 .project-total{
     text-align: right;
@@ -134,13 +130,13 @@ footer{
         padding: 0 10px 0 10px;
         left: 37vw;
         width: 60vw;
+        gap: 1rem;
     }
     .document-total{
         padding: 0 0 20px 10px;
     }
     .project-total{
         padding: 0;
-        margin-bottom: -20px;
     }
     .project .row{
         padding: 10px;
@@ -159,6 +155,7 @@ footer{
         font-size: 1rem;
         position: fixed;
         bottom: 0;
+        padding: 10px;
         margin: 0;
         width: 40vw;
     }
