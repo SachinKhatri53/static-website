@@ -56,6 +56,9 @@ header .profile i{
     background-color: green;
     color: white;
 }
+.fa-file-word{
+    margin-left: 5px;
+}
 .project{
     position: relative;
     left: 20vw;
@@ -130,6 +133,7 @@ footer{
     .document a{
         color: white;
     }
+    
     .project{
         padding: 0 10px 20px 10px;
         left: 37vw;
