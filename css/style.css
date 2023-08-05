@@ -146,13 +146,14 @@ footer{
         background-color: #292961;
         color: white;
         height: 100vh;
+        padding-top: 50px;
     }
     .document a{
         color: white;
     }
     
     .project{
-        padding: 0 10px 20px 10px;
+        padding: 50px 10px 20px 10px;
         left: 37vw;
         width: 60vw;
         gap: 1rem;
