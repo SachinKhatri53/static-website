@@ -17,6 +17,9 @@ header h1{
     color: white;
     text-align: center;
 }
+header a{
+    text-decoration: none;
+}
 header .profile{
     text-align: right;
     padding-right: 50px;
@@ -29,12 +32,23 @@ header .profile i{
     color: orange;
     margin-right: 5px;
 }
-
+header h6{
+    
+    background: white;
+    margin: 0 20px;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 20px;
+    cursor: pointer;
+}
+header h6 a{
+    color: red;
+}
 .document{
     position: fixed;
     width: 20vw;
     height: 80vh;
-    top:10vh;
+    top:12vh;
     padding: 20px;
     overflow-y: auto;
 }
@@ -62,7 +76,7 @@ header .profile i{
 .project{
     position: relative;
     left: 20vw;
-    top:10vh;
+    top:12vh;
     width: 78vw;
     display: flex;
     gap: 2rem;
@@ -111,6 +125,9 @@ footer{
     font-size: 1.5rem;
 }
 @media only screen and (max-width:550px){
+    header h6{
+        margin: 0 10px;
+    }
     .container{
         padding: 20px 10px;
     }
