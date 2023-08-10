@@ -88,12 +88,14 @@ header h6 a{
     text-align: right;
     padding: 20px 50px 0 0;
 }
-
+.project .row{
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+}
 .project a{
     text-decoration: none;
     color: #292961;
-    border-radius: 10px;
-    border: 2px solid lightgrey;
+    
 }
 .project .row{
     padding: 20px;
@@ -102,6 +104,7 @@ header h6 a{
     text-align: left;
     color: red;
 }
+
 .project .row .description{
     text-align: justify;
     padding-top: 10px;
@@ -110,7 +113,7 @@ header h6 a{
     text-align: right;
     color: green;
 }
-.project a:hover{
+.project .row:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer{
@@ -167,6 +170,7 @@ footer{
     .project .row{
         padding: 10px;
     }
+
     .project .row h2{
         font-size: 1.3rem;
         text-align: center;
